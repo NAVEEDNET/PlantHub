@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.nav-buttons {
+  margin-left: 70%;
+
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d8d8d8;
+
+}
+
+
+
+button:hover {
+  background-color: darkolivegreen;
+}
+
+/*navigation bar da height elm balanced*/
+.navbar {
+  font-size: 16px;
+  padding-top: 0.5rem !important;
+  padding-bottom: 1rem !important;
+
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 10px rgb(58, 56, 56);
+  /*fixed nav baaarrrrrr*/
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+
+
+
+}
+
+.navbar-light.navbar-nav.nav-link {
+  /*home about contect kindAA THEEESEEEEEE*/
+  padding: 0 20px;
+  color: #546461;
+  transition: .4ease;
+
+
+
+}
+
+.i-link {
+  color: #222222;
+  text-decoration: none;
+
+}
+
+/*changes when clicking shoping cart,user account logo,home about.....contect us */
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active .navbar i:hover {
+  color: rgb(5, 109, 28);
+
+
+}
+
+.navbar i {
+  font-size: 1.3rem;
+  padding: 0 0.7px;
+  transition: 0.4s ease;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5px;
+
+}
+
+@media only screen and (max-width:990px) {
+  .nav-buttons {
+    margin: 10px;
+
+  }
+
+  .nav-buttons ul {
+    margin: 1rem;
+    justify-content: flex-start;
+    text-align: right;
+   margin-right: 60px;
+
+  }
+
+  /*cart and account icon hve fas class*/
+ #fas {
+    margin: 20px 5px 10px 20px;
+  }
+
+
+}
+
+@media only screen and (max-width:990px) {
+  .nav-buttons {
+    margin: 10px;
+
+  }
+
+  .nav-buttons ul {
+    margin: 1rem;
+    justify-content: flex-start;
+    text-align: left;
+
+  }
+
+  /*cart and account icon hve fas class*/
+  .nav-buttons ul #fas {
+    margin: 20px 5px 10px 20px;
+
+
+
+
+
+
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .searchbar .search-container {
+    float: none;
+  }
+
+  .searchbar a,
+  .searchbar input[type=text],
+  .searchbar .search-container button {
+    float: none;
+    /*display: block;*/
+    text-align: left;
+    width: auto;
+    margin: 0;
+    padding: 14px;
+    border-radius: 5px;
+  }
+
+  .searchbar input[type=text] {
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+  }
+
+
+}
+
+.logo {
+  width: 60px;
+
+
+}
+
+.navbar .nav__logo {
+  color: #546461;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#buttons button a {
+  padding: 20px;
+
+
+}
+
+.pagination a {
+  color: darkolivegreen;
+  padding-right: 100px;
+}
+
+.pagination a:hover {
+  color: #fff;
+  background-color: darkolivegreen;
+}
+
+
+
+/* review paage......*/
+/* Review Section Styles */
+.review-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.review-section h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.review-form .form-group {
+  margin-bottom: 20px;
+}
+
+.review-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.review-form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.review-form textarea.form-control {
+  resize: vertical;
+}
+
+.review-form .sbt_review {
+  background-color: darkolivegreen;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Review Display Styles */
+.review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review .review-meta {
+  font-size: 14px;
+  color: #777;
+}
+
+.review .review-rating {
+  color: #f39c12;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.review .review-comment {
+  color: #333;
+}
